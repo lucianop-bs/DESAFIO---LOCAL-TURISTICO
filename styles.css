@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Formatacao dos textos */
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    color: #1b1b1b;
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    color: #1b1b1b;
+}
+h3{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    color: #1b1b1b;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+}
+.headline, .headline1{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    color: #E1624F;
+}
+.sub{
+    font-size: 16px;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+}
+.final{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+}
+/* FIM */
+body{
+    background-color: #F5F4F0;
+}
+header{
+    margin: 88px 80px 0px 80px;
+    box-sizing:border-box;
+    
+
+}
+.headline1{
+    padding-bottom: 8px ;
+}
+#texto{
+    text-align: center;
+    margin-bottom: 40px;
+}
+header img{
+    border-radius: 28px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+img{
+    border-radius: 28px;
+    width: 100%;
+}
+/* fim cabecalho */
+main{
+    margin: 88px 80px 0px 80px;
+    box-sizing:border-box;
+}
+.headline{
+    margin-bottom: 2px;
+    padding-top: 64px;
+}
