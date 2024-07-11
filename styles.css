@@ -14,6 +14,7 @@ h2{
     font-weight: bold;
     font-family: "Open Sans", sans-serif;
     color: #1b1b1b;
+    margin-bottom:8px ;
 }
 h3{
     font-size: 28px;
@@ -33,6 +34,12 @@ p{
     font-family: "Open Sans", sans-serif;
     color: #E1624F;
 }
+.listadesordenada{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+}
 .sub{
     font-size: 16px;
     font-style: italic;
@@ -44,6 +51,7 @@ p{
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
     color: #333333;
+    text-align: center;
 }
 /* FIM */
 body{
@@ -52,8 +60,6 @@ body{
 header{
     margin: 88px 80px 0px 80px;
     box-sizing:border-box;
-    
-
 }
 .headline1{
     padding-bottom: 8px ;
@@ -68,7 +74,7 @@ header img{
     margin-bottom: 24px;
     width: 100%;
 }
-img{
+ main img{
     border-radius: 28px;
     width: 100%;
 }
@@ -76,8 +82,81 @@ img{
 main{
     margin: 88px 80px 0px 80px;
     box-sizing:border-box;
+    
 }
 .headline{
     margin-bottom: 2px;
     padding-top: 64px;
 }
+.destino1{
+    margin-top: 64px ;
+    margin-bottom: 20px;
+}
+
+.listaordenada{
+    margin-bottom: 4px;
+}
+li::marker{
+    color:#1b1b1b ;
+}
+.primeiro{
+    color: #0C51A7;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+.lista1{
+    margin-left: 40px;
+    margin-bottom: 4px;
+}
+.destino2,.destino3{
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+.segundo{
+    color: #591B98;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+.terceiro{
+    color:#E5245E;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+.quarto{
+    color:#E95E10;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+ }
+ div{
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+    background-color:#D9D9D9;
+}
+
+.finish{
+    color:#333333;
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+
+}
+footer{
+    text-align: center; 
+    margin-top:57px; 
+    margin-bottom: 40px;   
+}
+footer img{
+    vertical-align: middle;
+}
+  
